@@ -1,0 +1,31 @@
+{
+  "name": "voter-transparency-candidate-submission",
+  "description": "This is a form that was created to help the League of Women voters to be able to have candidates augment the data provided to the Secretary of State to inform the public about candidates in a non-partisan manner.",
+  "version": "1.0.0",
+  "author": "MapLight",
+  "keywords": [],
+  "license": "CC0-1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "remix dev -c \"node server.mjs\""
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@remix-run/express": "^2.2.0",
+    "@remix-run/node": "^2.2.0",
+    "@remix-run/react": "^2.2.0",
+    "express": "^4.18.2",
+    "isbot": "^3.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.2.0",
+    "@tailwindcss/forms": "^0.5.6",
+    "eslint": "^8.52.0",
+    "eslint-plugin-react": "^7.33.2",
+    "prettier": "3.0.3",
+    "tailwindcss": "^3.3.5"
+  }
+}
